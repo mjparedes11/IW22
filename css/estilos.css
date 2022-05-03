@@ -1,0 +1,9 @@
+/*enserar los selectore*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+body{
+	background: #ff0000;
+}
