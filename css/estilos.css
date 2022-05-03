@@ -4,6 +4,162 @@
 	margin: 0;
 	border: 0;
 }
+
 body{
-	background: #ff0000;
+	font-family: sans-serif;
+	background: #f2f2f2;
+}
+header {
+	font-family: Allura;
+}
+main{
+	background-color: #fff;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal,.piePagina{
+	background-color: #ccc;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+.cabeceraPrincipal{
+	background-color: #FCD95F;
+	background: linear-gradient(to bottom, #FCD95F, #FCF5B8);;
+	box-shadow: #000 4px 5px 10px;
+}
+
+.cabeceraPrincipal h1{
+	color:#4C99D4;
+	padding:10px 40px;
+	text-shadow: #000 3px 2px 2px ;
+}
+.menuPrincipal{
+	background-color: #B58778;
+	text-align: center;
+	padding-top: 10px;
+	height: 30px;
+}
+.menuPrincipal a{
+	text-decoration: none;
+	padding: 5px 20px;
+	color: #373D3F;
+	font-family: Bree Serif;
+	transition: 1s;
+}
+.menuPrincipal a:hover{
+	background-color: #edd502;
+	color: #fff;
+	border-radius: 4px;
+}
+
+.sliderPrincipal img{
+	width: 100%;
+}
+
+.menu{
+	text-align: center;
+}
+
+.h2Home{
+	text-align: center;
+	padding: 1em 0;
+	color: #2B602A;
+}
+.menuPlato{
+	width: 32%;
+	border: 1px solid #bbb6b6;
+	background: #EDEDED;
+	box-sizing: border-box;
+	height: 100%;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.menuPlato img{
+	width: 98%;
+	border-radius: 1px;
+}
+.menuPlato h3{
+	color: #EC5500;
+	text-align: center;
+	padding: 1em 0;
+}
+.menuPlato p{
+	padding: 0.2em;
+	font-size: 13px;
+	color: #000000;
+}
+.menuPlato button{
+	background-color: #25570F;
+	color: #fff;
+	margin-bottom: 5px;
+	padding: 5px 6px;
+	border-radius: 50px;
+}
+.info{
+	display: inline-block;
+	padding: 40px;
+}
+.info p{
+	margin: 5px;
+}
+.info button{
+	margin: 10px;
+}
+.menuchef{
+	width: 32%;
+	height: 100%;
+	display: inline-flex;
+}
+.menuchef p{
+	color: #25570F;
+}
+
+.piePagina{
+	background-color: C4C4C4;
+	color: #000000;
+}
+.piePagina h6{
+	text-align: center;
+	padding: 2em 0;
+}
+
+@media only screen and (max-width: 800px){
+	body{
+		background-color: lightblue;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	body{
+		background-color: lightsalmon;
+	}
+	.sliderPrincipal img{
+		width: 100%;
+		height: 120px;
+	}
+	.menuPrincipal{
+		background-color: #B58778;
+		text-align: center;
+		padding-top: 10px;
+		height: 30px;
+	}
+	.menuPrincipal a{
+		text-decoration: none;
+		padding: 5px 4px;
+		color: #373D3F;
+		font-family: Bree Serif;
+		transition: 1s;
+	}
+	.menuPlato, .menuchef{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
 }
