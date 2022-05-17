@@ -1,0 +1,11 @@
+1 descargar WP
+2 descomprimir en la carpeta de desarrollo
+3 crear un htdocs en el xampp para linkear
+4 crear base de datos (mismo nombre de la pagina web) y admin 
+5 empezar a editar en la herramienta de desarrolo de WP
+
+"extra plantilla secilla y chevre vantage"
+las plantillas pueden editarse en todo tipo de formas ya que admiten 
+1 entrar a temas desde el administrador de WP
+2 seleccionar el ajuste necesario y de ahí solo se tira para adelante
+3 opcional se puede deitar el archivo de CSS
