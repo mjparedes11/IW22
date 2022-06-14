@@ -1,0 +1,117 @@
+/*enserar los selectores*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body{
+	background: #f3f3f3;
+	font-family: sans-serif;
+}
+
+.cabeceraPrincipal, .menuPrincipal, .sliderPrincipal, main{
+	background: #fff;
+	color: #fff;
+	width: 90%;
+	margin: 0 auto;
+}
+.cabeceraPrincipal{
+	background-color: #ffffff;
+}
+.cabeceraPrincipal h1{
+	color: #4C99D4;
+	padding: 10px 40px;
+	text-shadow: #000 3px 2px 2px;
+}
+.menuPrincipal{
+	background-color: #FCC27E;
+	text-align: center;
+	padding-top: 10px;
+	height: 30px;
+}
+.menuPrincipal a{
+	text-decoration: none;
+	padding: 5px 10px;
+	color: #3A3A3A;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.menuPrincipal a:hover{
+	background-color: #000;
+	color: #fff;
+	transition: 1s;
+}
+.sliderPrincipal img{
+	width: 100%;
+}
+.h2Home{
+	text-align: center;
+	padding: 2em 0;
+	color: #DB6900;
+	font-size: 40px;
+}
+.menu{
+	text-align: center;
+}
+.menuPlato{
+	width: 32%;
+	background: #EDEDED;
+	border: 1px solid #BBB6B6;
+	box-sizing: border-box;
+	margin-bottom: 1px;
+	border-radius: 5px;
+	display: inline-block;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.menuPlato img{
+	width: 100%;
+}
+.menuPlato h3{
+	color: #DB6900;
+	text-align: center;
+	padding: 1em 0;
+}
+.menuPlato p{
+	padding: 0.2em 1em;
+	font-size: 13px;
+	color: #494848;
+
+}
+.menuPlato button{
+	background-color: #07738A;
+	color: #fff;
+	padding: 0.5em 1em;
+	margin-bottom: 5px;
+}
+main{
+	background-color: #ccc;
+}
+
+
+.piePagina{
+	background-color: #1D1D1D;
+	color: #C1D0D4;
+}
+.piePagina h6{
+	text-align: center;
+	padding: 2em 0;
+}
+
+
+@media only screen and (max-width: 800px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+	.menuPlato{
+		width: 90%;
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+
+}
